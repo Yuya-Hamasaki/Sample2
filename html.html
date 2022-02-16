@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>top</title>
+
+<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+  <link href="./loading.css" rel="stylesheet">
+  <link href="./fullpage.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Corben:700" rel="stylesheet">
+  
+  
+</head>
+  
+<body>
+
+  <div id="splash">
+    <div id="splash_text"></div>
+    <div id="splash_gif"></div>
+  </div>
+
+  <main>
+    <div id="fullpage">
+      <section class="section s1">
+       <h1 class="txt_01">YUYA</h1>
+       <h2 class="txt_02">PORTFOLIO</h2>
+      </section>
+        
+        
+        <section class="section s2">
+          <h1 class="txt_03">Profile</h1>
+          
+          <div class="prof">
+            <img src="アイコン.jpg"  class="prof_img">
+          </div>
+          
+          <div class="prof_word">
+           濱崎 悠野です！</br>よろしくお願いします！
+          </div>
+        
+        </section>
+        
+        <section class="section s3">
+          
+          <div class="memo_1">
+            メモ1
+          </div>
+          
+          <div class="memo_2">
+            メモ2
+          </div>
+          
+          <div class="memo_3">
+            メモ3
+          </div>
+          
+          <div class="memo_4">
+            メモ4
+          </div>
+          
+          <div class="memo_5">
+            メモ5        
+          </div>
+          
+          
+          
+          
+          
+        
+        </section>
+        
+        <section class="section s4">
+          
+          <div class="work">
+            WORKS <img class="work_img" src="icons/work.svg">
+          </div>
+          
+          <div class="work_1">
+            <p class="work1"></p>
+          </div>
+          
+          <div class="work_2">
+            <p class="work2"></p>
+          </div>
+          
+          <div class="work_3">
+            <p class="work3"></p>
+          </div>
+          
+          <div class="work_4">
+            <p class="work4"></p>
+          </div>
+          
+        </section>
+        
+        
+    
+    
+        
+  </main>
+<!--==============JQuery読み込み===============-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+<!--自作のJS-->
+<script src="./loading.js"></script>
+
+<!--fullpage.js-->
+<script src="./fullpage.min.js"></script>
+<script src="./app.js"></script>
+
+
+
+
+
+</body>
+</html>
